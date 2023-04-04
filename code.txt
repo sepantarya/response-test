@@ -17,7 +17,8 @@ $response = wp_remote_get($url, ['headers' => $headers, 'timeout' => 15]);
         return;
     }
 
-    $order = json_decode(wp_remote_retrieve_body($response), true);
+   $order = json_decode(wp_remote_retrieve_body($response));
+
 	
 	$raw_api_response = wp_remote_retrieve_body($response);
 	error_log("Raw API response:\n" . $raw_api_response);
