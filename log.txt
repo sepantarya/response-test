@@ -1,30 +1,18 @@
-
-text/plain debug.log ( UTF-8 Unicode text, with very long lines )
-[04-Apr-2023 20:56:07 UTC] PHP Deprecated:  هوک elementor/widgets/widgets_registered از نگارش3.5.0 <strong>منسوخ</strong> شده است! به‌جای آن از elementor/widgets/register استفاده نمایید. in /home/goldfollower/public_html/wp-includes/functions.php on line 5758
-[04-Apr-2023 20:56:07 UTC] PHP Deprecated:  تابع Elementor\Widgets_Manager::register_widget_type از نگارش 3.5.0 <strong>منسوخ شده</strong> است! به جای آن از register استفاده نمایید. in /home/goldfollower/public_html/wp-includes/functions.php on line 5383
-[04-Apr-2023 20:56:07 UTC] PHP Deprecated:  تابع Elementor\Widgets_Manager::register_widget_type از نگارش 3.5.0 <strong>منسوخ شده</strong> است! به جای آن از register استفاده نمایید. in /home/goldfollower/public_html/wp-includes/functions.php on line 5383
-[04-Apr-2023 20:56:07 UTC] PHP Deprecated:  تابع Elementor\Widgets_Manager::register_widget_type از نگارش 3.5.0 <strong>منسوخ شده</strong> است! به جای آن از register استفاده نمایید. in /home/goldfollower/public_html/wp-includes/functions.php on line 5383
-[04-Apr-2023 20:56:07 UTC] PHP Deprecated:  تابع Elementor\Widgets_Manager::register_widget_type از نگارش 3.5.0 <strong>منسوخ شده</strong> است! به جای آن از register استفاده نمایید. in /home/goldfollower/public_html/wp-includes/functions.php on line 5383
-[04-Apr-2023 20:56:14 UTC] PHP Deprecated:  هوک elementor/widgets/widgets_registered از نگارش3.5.0 <strong>منسوخ</strong> شده است! به‌جای آن از elementor/widgets/register استفاده نمایید. in /home/goldfollower/public_html/wp-includes/functions.php on line 5758
-[04-Apr-2023 20:56:14 UTC] PHP Deprecated:  تابع Elementor\Widgets_Manager::register_widget_type از نگارش 3.5.0 <strong>منسوخ شده</strong> است! به جای آن از register استفاده نمایید. in /home/goldfollower/public_html/wp-includes/functions.php on line 5383
-[04-Apr-2023 20:56:14 UTC] PHP Deprecated:  تابع Elementor\Widgets_Manager::register_widget_type از نگارش 3.5.0 <strong>منسوخ شده</strong> است! به جای آن از register استفاده نمایید. in /home/goldfollower/public_html/wp-includes/functions.php on line 5383
-[04-Apr-2023 20:56:14 UTC] PHP Deprecated:  تابع Elementor\Widgets_Manager::register_widget_type از نگارش 3.5.0 <strong>منسوخ شده</strong> است! به جای آن از register استفاده نمایید. in /home/goldfollower/public_html/wp-includes/functions.php on line 5383
-[04-Apr-2023 20:56:14 UTC] PHP Deprecated:  تابع Elementor\Widgets_Manager::register_widget_type از نگارش 3.5.0 <strong>منسوخ شده</strong> است! به جای آن از register استفاده نمایید. in /home/goldfollower/public_html/wp-includes/functions.php on line 5383
-[04-Apr-2023 20:56:24 UTC] PHP Notice:  Undefined index: billing_email in /home/goldfollower/public_html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php on line 424
-[04-Apr-2023 20:56:27 UTC] Function send_http_request_on_product_purchase executed
-[04-Apr-2023 20:56:33 UTC] Raw API response:
-{"id":177354,"parent_id":0,"status":"processing","currency":"IRT","version":"7.3.0","prices_include_tax":false,"date_created":"2023-04-05T00:26:24","date_modified":"2023-04-05T00:26:25","discount_total":"0","discount_tax":"0","shipping_total":"0","shipping_tax":"0","cart_tax":"0","total":"32000","total_tax":"0","customer_id":1,"order_key":"wc_order_X8rCxsUAoc63x","billing":{"first_name":"thenewsnexus","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":"","email":"parppl@gmail.com","phone":"gf_admin"},"shipping":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":"","phone":""},"payment_method":"wallet","payment_method_title":"\u06a9\u06cc\u0641 \u067e\u0648\u0644","transaction_id":"2147","customer_ip_address":"206.217.143.136","customer_user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/111.0.0.0 Safari\/537.36","created_via":"checkout","customer_note":"","date_completed":null,"date_paid":"2023-04-05T00:26:25","cart_hash":"a683442934644073572dcba6dd55bd76","number":"177354","meta_data":[{"id":21208067,"key":"is_vat_exempt","value":"no"},{"id":21208068,"key":"billing_first_name","value":"thenewsnexus"},{"id":21208069,"key":"billing_phone","value":"0912"},{"id":21208070,"key":"yith_wcpmr_order_cart","value":{"cart_total":32000,"items":{"9469760ac4083f99b86ebc0b23a3e032":{"tmhasepo":1,"epo_price_override":1,"tmcartepo":[{"mode":"builder","cssclass":"","hidelabelincart":"","hidevalueincart":"","hidelabelinorder":"","hidevalueinorder":"","element":{"type":"range","rules":[["{this.value}*32"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"\u062a\u0639\u062f\u0627\u062f","value":"200","price":6400,"section":"642ab204524449.12927591","section_label":"\u062a\u0639\u062f\u0627\u062f","currencies":[],"price_per_currency":{"IRT":6400},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0},{"mode":"builder","cssclass":"","hidelabelincart":"","hidevalueincart":"","hidelabelinorder":"","hidevalueinorder":"","element":{"type":"range","rules":[["{field.642ab204524449.12927591.price}*{this.value}-{field.642ab204524449.12927591.price}"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"\u067e\u0633\u062a \u0628\u0639\u062f\u06cc","value":"5","price":25600,"section":"642ab204524450.02843967","section_label":"\u067e\u0633\u062a \u0628\u0639\u062f\u06cc","currencies":[],"price_per_currency":{"IRT":25600},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0}],"tmcartfee":[],"tmpost_data":{"attribute_%d9%85%d8%af%d8%aa-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9":"\u06cc\u06a9 \u0645\u0627\u0647","tm-epo-counter":"1","tcaddtocart":"177235","tmcp_range_0":"200","tmcp_range_1":"5","cpf_product_price":"0","tc_form_prefix":"","quantity":"1","add-to-cart":"177235","product_id":"177235","variation_id":"177236"},"tmsubscriptionfee":0,"tmdata":{"tmcp_post_fields":{"tmcp_range_0":"200","tmcp_range_1":"5"},"product_id":177235,"per_product_pricing":true,"cpf_product_price":"0","variation_id":"177236","form_prefix":"","tc_added_in_currency":"IRT","tc_default_currency":"IRT","tmcartepo_data":[{"key":"200","attribute":"tmcp_range_0"},{"key":"5","attribute":"tmcp_range_1"}]},"key":"9469760ac4083f99b86ebc0b23a3e032","product_id":177235,"variation_id":177236,"variation":{"attribute_%d9%85%d8%af%d8%aa-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9":"\u06cc\u06a9 \u0645\u0627\u0647"},"quantity":1,"data_hash":"cc47c9bbcae1a8f014db379bf3a1d235","tm_cart_item_key":"9469760ac4083f99b86ebc0b23a3e032","tm_epo_product_original_price":"0","tm_epo_options_prices":32000,"tm_epo_product_price_with_options":"32000","tm_epo_options_static_prices":32000,"associated_products_price":0,"tm_epo_options_static_prices_first":32000,"tm_epo_set_product_price_with_options":"32000","line_tax_data":{"subtotal":[],"total":[]},"line_subtotal":32000,"line_subtotal_tax":0,"line_total":32000,"line_tax":0,"addons":{"epo":true,"price":0},"data":{}}}}},{"id":21208116,"key":"data_sku","value":",1"},{"id":21208119,"key":"is_paid","value":"1"}],"line_items":[{"id":164960,"name":"\u0644\u0627\u06cc\u06a9 \u0627\u062a\u0648\u0645\u0627\u062a\u06cc\u06a9 \u0627\u06cc\u0646\u0633\u062a\u0627\u06af\u0631\u0627\u0645 - \u0633\u0631\u0648\u06cc\u0633 \u062c\u062f\u06cc\u062f - \u06cc\u06a9 \u0645\u0627\u0647","product_id":177235,"variation_id":177236,"quantity":1,"tax_class":"","subtotal":"32000","subtotal_tax":"0","total":"32000","total_tax":"0","taxes":[],"meta_data":[{"id":1604898,"key":"\u0645\u062f\u062a-\u0627\u0634\u062a\u0631\u0627\u06a9","value":"\u06cc\u06a9 \u0645\u0627\u0647","display_key":"\u0645\u062f\u062a \u0627\u0634\u062a\u0631\u0627\u06a9","display_value":"\u06cc\u06a9 \u0645\u0627\u0647"},{"id":1604899,"key":"_tmcartepo_data","value":[{"mode":"builder","cssclass":"","hidelabelincart":"","hidevalueincart":"","hidelabelinorder":"","hidevalueinorder":"","element":{"type":"range","rules":[["{this.value}*32"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"\u062a\u0639\u062f\u0627\u062f","value":"200","price":6400,"section":"642ab204524449.12927591","section_label":"\u062a\u0639\u062f\u0627\u062f","currencies":[],"price_per_currency":{"IRT":6400},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0},{"mode":"builder","cssclass":"","hidelabelincart":"","hidevalueincart":"","hidelabelinorder":"","hidevalueinorder":"","element":{"type":"range","rules":[["{field.642ab204524449.12927591.price}*{this.value}-{field.642ab204524449.12927591.price}"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"\u067e\u0633\u062a \u0628\u0639\u062f\u06cc","value":"5","price":25600,"section":"642ab204524450.02843967","section_label":"\u067e\u0633\u062a \u0628\u0639\u062f\u06cc","currencies":[],"price_per_currency":{"IRT":25600},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0}],"display_key":"_tmcartepo_data","display_value":[{"mode":"builder","cssclass":"","hidelabelincart":"","hidevalueincart":"","hidelabelinorder":"","hidevalueinorder":"","element":{"type":"range","rules":[["{this.value}*32"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"\u062a\u0639\u062f\u0627\u062f","value":"200","price":6400,"section":"642ab204524449.12927591","section_label":"\u062a\u0639\u062f\u0627\u062f","currencies":[],"price_per_currency":{"IRT":6400},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0},{"mode":"builder","cssclass":"","hidelabelincart":"","hidevalueincart":"","hidelabelinorder":"","hidevalueinorder":"","element":{"type":"range","rules":[["{field.642ab204524449.12927591.price}*{this.value}-{field.642ab204524449.12927591.price}"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"\u067e\u0633\u062a \u0628\u0639\u062f\u06cc","value":"5","price":25600,"section":"642ab204524450.02843967","section_label":"\u067e\u0633\u062a \u0628\u0639\u062f\u06cc","currencies":[],"price_per_currency":{"IRT":25600},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0}]},{"id":1604900,"key":"_tm_epo_product_original_price","value":["0"],"display_key":"_tm_epo_product_original_price","display_value":["0"]},{"id":1604901,"key":"_tm_epo_options_prices","value":[32000],"display_key":"_tm_epo_options_prices","display_value":[32000]},{"id":1604902,"key":"_tm_epo","value":[1],"display_key":"_tm_epo","display_value":[1]},{"id":1604903,"key":"_tmdata","value":[{"tmcp_post_fields":{"tmcp_range_0":"200","tmcp_range_1":"5"},"product_id":177235,"per_product_pricing":true,"cpf_product_price":"0","variation_id":"177236","form_prefix":"","tc_added_in_currency":"IRT","tc_default_currency":"IRT","tmcartepo_data":[{"key":"200","attribute":"tmcp_range_0"},{"key":"5","attribute":"tmcp_range_1"}]}],"display_key":"_tmdata","display_value":[{"tmcp_post_fields":{"tmcp_range_0":"200","tmcp_range_1":"5"},"product_id":177235,"per_product_pricing":true,"cpf_product_price":"0","variation_id":"177236","form_prefix":"","tc_added_in_currency":"IRT","tc_default_currency":"IRT","tmcartepo_data":[{"key":"200","attribute":"tmcp_range_0"},{"key":"5","attribute":"tmcp_range_1"}]}]},{"id":1604904,"key":"_tmpost_data","value":[{"attribute_%d9%85%d8%af%d8%aa-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9":"\u06cc\u06a9 \u0645\u0627\u0647","tm-epo-counter":"1","tcaddtocart":"177235","tmcp_range_0":"200","tmcp_range_1":"5","cpf_product_price":"0","tc_form_prefix":"","quantity":"1","add-to-cart":"177235","product_id":"177235","variation_id":"177236"}],"display_key":"_tmpost_data","display_value":[{"attribute_%d9%85%d8%af%d8%aa-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9":"\u06cc\u06a9 \u0645\u0627\u0647","tm-epo-counter":"1","tcaddtocart":"177235","tmcp_range_0":"200","tmcp_range_1":"5","cpf_product_price":"0","tc_form_prefix":"","quantity":"1","add-to-cart":"177235","product_id":"177235","variation_id":"177236"}]},{"id":1604898,"key":"\u0645\u062f\u062a-\u0627\u0634\u062a\u0631\u0627\u06a9","value":"\u06cc\u06a9 \u0645\u0627\u0647","display_key":"\u0645\u062f\u062a \u0627\u0634\u062a\u0631\u0627\u06a9","display_value":"\u06cc\u06a9 \u0645\u0627\u0647"},{"id":1604899,"key":"_tmcartepo_data","value":[{"mode":"builder","cssclass":"","hidelabelincart":"","hidevalueincart":"","hidelabelinorder":"","hidevalueinorder":"","element":{"type":"range","rules":[["{this.value}*32"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"\u062a\u0639\u062f\u0627\u062f","value":"200","price":6400,"section":"642ab204524449.12927591","section_label":"\u062a\u0639\u062f\u0627\u062f","currencies":[],"price_per_currency":{"IRT":6400},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0},{"mode":"builder","cssclass":"","hidelabelincart":"","hidevalueincart":"","hidelabelinorder":"","hidevalueinorder":"","element":{"type":"range","rules":[["{field.642ab204524449.12927591.price}*{this.value}-{field.642ab204524449.12927591.price}"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"\u067e\u0633\u062a \u0628\u0639\u062f\u06cc","value":"5","price":25600,"section":"642ab204524450.02843967","section_label":"\u067e\u0633\u062a \u0628\u0639\u062f\u06cc","currencies":[],"price_per_currency":{"IRT":25600},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0}],"display_key":"_tmcartepo_data","display_value":[{"mode":"builder","cssclass":"","hidelabelincart":"","hidevalueincart":"","hidelabelinorder":"","hidevalueinorder":"","element":{"type":"range","rules":[["{this.value}*32"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"\u062a\u0639\u062f\u0627\u062f","value":"200","price":6400,"section":"642ab204524449.12927591","section_label":"\u062a\u0639\u062f\u0627\u062f","currencies":[],"price_per_currency":{"IRT":6400},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0},{"mode":"builder","cssclass":"","hidelabelincart":"","hidevalueincart":"","hidelabelinorder":"","hidevalueinorder":"","element":{"type":"range","rules":[["{field.642ab204524449.12927591.price}*{this.value}-{field.642ab204524449.12927591.price}"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"\u067e\u0633\u062a \u0628\u0639\u062f\u06cc","value":"5","price":25600,"section":"642ab204524450.02843967","section_label":"\u067e\u0633\u062a \u0628\u0639\u062f\u06cc","currencies":[],"price_per_currency":{"IRT":25600},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0}]},{"id":1604900,"key":"_tm_epo_product_original_price","value":["0"],"display_key":"_tm_epo_product_original_price","display_value":["0"]},{"id":1604901,"key":"_tm_epo_options_prices","value":[32000],"display_key":"_tm_epo_options_prices","display_value":[32000]},{"id":1604902,"key":"_tm_epo","value":[1],"display_key":"_tm_epo","display_value":[1]},{"id":1604903,"key":"_tmdata","value":[{"tmcp_post_fields":{"tmcp_range_0":"200","tmcp_range_1":"5"},"product_id":177235,"per_product_pricing":true,"cpf_product_price":"0","variation_id":"177236","form_prefix":"","tc_added_in_currency":"IRT","tc_default_currency":"IRT","tmcartepo_data":[{"key":"200","attribute":"tmcp_range_0"},{"key":"5","attribute":"tmcp_range_1"}]}],"display_key":"_tmdata","display_value":[{"tmcp_post_fields":{"tmcp_range_0":"200","tmcp_range_1":"5"},"product_id":177235,"per_product_pricing":true,"cpf_product_price":"0","variation_id":"177236","form_prefix":"","tc_added_in_currency":"IRT","tc_default_currency":"IRT","tmcartepo_data":[{"key":"200","attribute":"tmcp_range_0"},{"key":"5","attribute":"tmcp_range_1"}]}]},{"id":1604904,"key":"_tmpost_data","value":[{"attribute_%d9%85%d8%af%d8%aa-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9":"\u06cc\u06a9 \u0645\u0627\u0647","tm-epo-counter":"1","tcaddtocart":"177235","tmcp_range_0":"200","tmcp_range_1":"5","cpf_product_price":"0","tc_form_prefix":"","quantity":"1","add-to-cart":"177235","product_id":"177235","variation_id":"177236"}],"display_key":"_tmpost_data","display_value":[{"attribute_%d9%85%d8%af%d8%aa-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9":"\u06cc\u06a9 \u0645\u0627\u0647","tm-epo-counter":"1","tcaddtocart":"177235","tmcp_range_0":"200","tmcp_range_1":"5","cpf_product_price":"0","tc_form_prefix":"","quantity":"1","add-to-cart":"177235","product_id":"177235","variation_id":"177236"}]},{"id":100000,"key":"\u062a\u0639\u062f\u0627\u062f","value":"200 <small> <span class=\"woocommerce-Price-amount amount\"><bdi>6,400\u00a0<span class=\"woocommerce-Price-currencySymbol\">\u062a\u0648\u0645\u0627\u0646<\/span><\/bdi><\/span><\/small>","display_key":"\u062a\u0639\u062f\u0627\u062f","display_value":"200 6,400\u00a0\u062a\u0648\u0645\u0627\u0646"},{"id":100001,"key":"\u067e\u0633\u062a \u0628\u0639\u062f\u06cc","value":"5 <small> <span class=\"woocommerce-Price-amount amount\"><bdi>25,600\u00a0<span class=\"woocommerce-Price-currencySymbol\">\u062a\u0648\u0645\u0627\u0646<\/span><\/bdi><\/span><\/small>","display_key":"\u067e\u0633\u062a \u0628\u0639\u062f\u06cc","display_value":"5 25,600\u00a0\u062a\u0648\u0645\u0627\u0646"}],"sku":"","price":32000,"image":{"id":0,"src":""},"parent_name":"\u0644\u0627\u06cc\u06a9 \u0627\u062a\u0648\u0645\u0627\u062a\u06cc\u06a9 \u0627\u06cc\u0646\u0633\u062a\u0627\u06af\u0631\u0627\u0645 - \u0633\u0631\u0648\u06cc\u0633 \u062c\u062f\u06cc\u062f"}],"tax_lines":[],"shipping_lines":[],"fee_lines":[],"coupon_lines":[],"refunds":[],"payment_url":"https:\/\/goldfollower.com\/checkout\/order-pay\/177354\/?pay_for_order=true&key=wc_order_X8rCxsUAoc63x","is_editable":false,"needs_payment":false,"needs_processing":true,"date_created_gmt":"2023-04-04T20:56:24","date_modified_gmt":"2023-04-04T20:56:25","date_completed_gmt":null,"date_paid_gmt":"2023-04-04T20:56:25","currency_symbol":"\u062a\u0648\u0645\u0627\u0646","_links":{"self":[{"href":"https:\/\/goldfollower.com\/wp-json\/wc\/v3\/orders\/177354"}],"collection":[{"href":"https:\/\/goldfollower.com\/wp-json\/wc\/v3\/orders"}],"customer":[{"href":"https:\/\/goldfollower.com\/wp-json\/wc\/v3\/customers\/1"}]}}
-[04-Apr-2023 20:56:33 UTC] Decoded API response:
+[04-Apr-2023 21:04:27 UTC] PHP Notice:  Undefined index: billing_email in /home/goldfollower/public_html/wp-content/plugins/woocommerce/includes/class-wc-checkout.php on line 424
+[04-Apr-2023 21:04:30 UTC] Function send_http_request_on_product_purchase executed
+[04-Apr-2023 21:04:36 UTC] Raw API response:
+{"id":177357,"parent_id":0,"status":"processing","currency":"IRT","version":"7.3.0","prices_include_tax":false,"date_created":"2023-04-05T00:34:27","date_modified":"2023-04-05T00:34:28","discount_total":"0","discount_tax":"0","shipping_total":"0","shipping_tax":"0","cart_tax":"0","total":"32000","total_tax":"0","customer_id":1,"order_key":"wc_order_K01bgeHv4jYO3","billing":{"first_name":"thenewsnexus","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":"","email":"parppl@gmail.com","phone":"gf_admin"},"shipping":{"first_name":"","last_name":"","company":"","address_1":"","address_2":"","city":"","state":"","postcode":"","country":"","phone":""},"payment_method":"wallet","payment_method_title":"\u06a9\u06cc\u0641 \u067e\u0648\u0644","transaction_id":"2148","customer_ip_address":"206.217.143.136","customer_user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/111.0.0.0 Safari\/537.36","created_via":"checkout","customer_note":"","date_completed":null,"date_paid":"2023-04-05T00:34:28","cart_hash":"02bd58ea30b2c7cf35ece4715b33c6be","number":"177357","meta_data":[{"id":21208209,"key":"is_vat_exempt","value":"no"},{"id":21208210,"key":"billing_first_name","value":"thenewsnexus"},{"id":21208211,"key":"billing_phone","value":"0912"},{"id":21208212,"key":"yith_wcpmr_order_cart","value":{"cart_total":32000,"items":{"9469760ac4083f99b86ebc0b23a3e032":{"tmhasepo":1,"epo_price_override":1,"tmcartepo":[{"mode":"builder","cssclass":"","hidelabelincart":"hidden","hidevalueincart":"price","hidelabelinorder":"hidden","hidevalueinorder":"price","element":{"type":"range","rules":[["{this.value}*32"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"_min_quantity","value":"200","price":6400,"section":"642ab204524449.12927591","section_label":"_min_quantity","currencies":[],"price_per_currency":{"IRT":6400},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0},{"mode":"builder","cssclass":"","hidelabelincart":"hidden","hidevalueincart":"price","hidelabelinorder":"hidden","hidevalueinorder":"price","element":{"type":"range","rules":[["{field.642ab204524449.12927591.price}*{this.value}-{field.642ab204524449.12927591.price}"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"_next_posts","value":"5","price":25600,"section":"642ab204524450.02843967","section_label":"_next_posts","currencies":[],"price_per_currency":{"IRT":25600},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0}],"tmcartfee":[],"tmpost_data":{"attribute_%d9%85%d8%af%d8%aa-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9":"\u06cc\u06a9 \u0645\u0627\u0647","tm-epo-counter":"1","tcaddtocart":"177235","tmcp_range_0":"200","tmcp_range_1":"5","cpf_product_price":"0","tc_form_prefix":"","quantity":"1","add-to-cart":"177235","product_id":"177235","variation_id":"177236"},"tmsubscriptionfee":0,"tmdata":{"tmcp_post_fields":{"tmcp_range_0":"200","tmcp_range_1":"5"},"product_id":177235,"per_product_pricing":true,"cpf_product_price":"0","variation_id":"177236","form_prefix":"","tc_added_in_currency":"IRT","tc_default_currency":"IRT","tmcartepo_data":[{"key":"200","attribute":"tmcp_range_0"},{"key":"5","attribute":"tmcp_range_1"}]},"key":"9469760ac4083f99b86ebc0b23a3e032","product_id":177235,"variation_id":177236,"variation":{"attribute_%d9%85%d8%af%d8%aa-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9":"\u06cc\u06a9 \u0645\u0627\u0647"},"quantity":1,"data_hash":"cc47c9bbcae1a8f014db379bf3a1d235","tm_cart_item_key":"9469760ac4083f99b86ebc0b23a3e032","tm_epo_product_original_price":"0","tm_epo_options_prices":32000,"tm_epo_product_price_with_options":"32000","tm_epo_options_static_prices":32000,"associated_products_price":0,"tm_epo_options_static_prices_first":32000,"tm_epo_set_product_price_with_options":"32000","line_tax_data":{"subtotal":[],"total":[]},"line_subtotal":32000,"line_subtotal_tax":0,"line_total":32000,"line_tax":0,"addons":{"epo":true,"price":0},"data":{}}}}},{"id":21208258,"key":"data_sku","value":",1"},{"id":21208261,"key":"is_paid","value":"1"}],"line_items":[{"id":164963,"name":"\u0644\u0627\u06cc\u06a9 \u0627\u062a\u0648\u0645\u0627\u062a\u06cc\u06a9 \u0627\u06cc\u0646\u0633\u062a\u0627\u06af\u0631\u0627\u0645 - \u0633\u0631\u0648\u06cc\u0633 \u062c\u062f\u06cc\u062f - \u06cc\u06a9 \u0645\u0627\u0647","product_id":177235,"variation_id":177236,"quantity":1,"tax_class":"","subtotal":"32000","subtotal_tax":"0","total":"32000","total_tax":"0","taxes":[],"meta_data":[{"id":1604940,"key":"\u0645\u062f\u062a-\u0627\u0634\u062a\u0631\u0627\u06a9","value":"\u06cc\u06a9 \u0645\u0627\u0647","display_key":"\u0645\u062f\u062a \u0627\u0634\u062a\u0631\u0627\u06a9","display_value":"\u06cc\u06a9 \u0645\u0627\u0647"},{"id":1604941,"key":"_tmcartepo_data","value":[{"mode":"builder","cssclass":"","hidelabelincart":"hidden","hidevalueincart":"price","hidelabelinorder":"hidden","hidevalueinorder":"price","element":{"type":"range","rules":[["{this.value}*32"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"_min_quantity","value":"200","price":6400,"section":"642ab204524449.12927591","section_label":"_min_quantity","currencies":[],"price_per_currency":{"IRT":6400},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0},{"mode":"builder","cssclass":"","hidelabelincart":"hidden","hidevalueincart":"price","hidelabelinorder":"hidden","hidevalueinorder":"price","element":{"type":"range","rules":[["{field.642ab204524449.12927591.price}*{this.value}-{field.642ab204524449.12927591.price}"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"_next_posts","value":"5","price":25600,"section":"642ab204524450.02843967","section_label":"_next_posts","currencies":[],"price_per_currency":{"IRT":25600},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0}],"display_key":"_tmcartepo_data","display_value":[{"mode":"builder","cssclass":"","hidelabelincart":"hidden","hidevalueincart":"price","hidelabelinorder":"hidden","hidevalueinorder":"price","element":{"type":"range","rules":[["{this.value}*32"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"_min_quantity","value":"200","price":6400,"section":"642ab204524449.12927591","section_label":"_min_quantity","currencies":[],"price_per_currency":{"IRT":6400},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0},{"mode":"builder","cssclass":"","hidelabelincart":"hidden","hidevalueincart":"price","hidelabelinorder":"hidden","hidevalueinorder":"price","element":{"type":"range","rules":[["{field.642ab204524449.12927591.price}*{this.value}-{field.642ab204524449.12927591.price}"]],"rules_type":[["math"]],"_":{"price_type":false}},"name":"_next_posts","value":"5","price":25600,"section":"642ab204524450.02843967","section_label":"_next_posts","currencies":[],"price_per_currency":{"IRT":25600},"percentcurrenttotal":0,"fixedcurrenttotal":0,"quantity":1,"key_id":0,"keyvalue_id":0}]},{"id":1604942,"key":"_tm_epo_product_original_price","value":["0"],"display_key":"_tm_epo_product_original_price","display_value":["0"]},{"id":1604943,"key":"_tm_epo_options_prices","value":[32000],"display_key":"_tm_epo_options_prices","display_value":[32000]},{"id":1604944,"key":"_tm_epo","value":[1],"display_key":"_tm_epo","display_value":[1]},{"id":1604945,"key":"_tmdata","value":[{"tmcp_post_fields":{"tmcp_range_0":"200","tmcp_range_1":"5"},"product_id":177235,"per_product_pricing":true,"cpf_product_price":"0","variation_id":"177236","form_prefix":"","tc_added_in_currency":"IRT","tc_default_currency":"IRT","tmcartepo_data":[{"key":"200","attribute":"tmcp_range_0"},{"key":"5","attribute":"tmcp_range_1"}]}],"display_key":"_tmdata","display_value":[{"tmcp_post_fields":{"tmcp_range_0":"200","tmcp_range_1":"5"},"product_id":177235,"per_product_pricing":true,"cpf_product_price":"0","variation_id":"177236","form_prefix":"","tc_added_in_currency":"IRT","tc_default_currency":"IRT","tmcartepo_data":[{"key":"200","attribute":"tmcp_range_0"},{"key":"5","attribute":"tmcp_range_1"}]}]},{"id":1604946,"key":"_tmpost_data","value":[{"attribute_%d9%85%d8%af%d8%aa-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9":"\u06cc\u06a9 \u0645\u0627\u0647","tm-epo-counter":"1","tcaddtocart":"177235","tmcp_range_0":"200","tmcp_range_1":"5","cpf_product_price":"0","tc_form_prefix":"","quantity":"1","add-to-cart":"177235","product_id":"177235","variation_id":"177236"}],"display_key":"_tmpost_data","display_value":[{"attribute_%d9%85%d8%af%d8%aa-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9":"\u06cc\u06a9 \u0645\u0627\u0647","tm-epo-counter":"1","tcaddtocart":"177235","tmcp_range_0":"200","tmcp_range_1":"5","cpf_product_price":"0","tc_form_prefix":"","quantity":"1","add-to-cart":"177235","product_id":"177235","variation_id":"177236"}]}],"sku":"","price":32000,"image":{"id":0,"src":""},"parent_name":"\u0644\u0627\u06cc\u06a9 \u0627\u062a\u0648\u0645\u0627\u062a\u06cc\u06a9 \u0627\u06cc\u0646\u0633\u062a\u0627\u06af\u0631\u0627\u0645 - \u0633\u0631\u0648\u06cc\u0633 \u062c\u062f\u06cc\u062f"}],"tax_lines":[],"shipping_lines":[],"fee_lines":[],"coupon_lines":[],"refunds":[],"payment_url":"https:\/\/goldfollower.com\/checkout\/order-pay\/177357\/?pay_for_order=true&key=wc_order_K01bgeHv4jYO3","is_editable":false,"needs_payment":false,"needs_processing":true,"date_created_gmt":"2023-04-04T21:04:27","date_modified_gmt":"2023-04-04T21:04:28","date_completed_gmt":null,"date_paid_gmt":"2023-04-04T21:04:28","currency_symbol":"\u062a\u0648\u0645\u0627\u0646","_links":{"self":[{"href":"https:\/\/goldfollower.com\/wp-json\/wc\/v3\/orders\/177357"}],"collection":[{"href":"https:\/\/goldfollower.com\/wp-json\/wc\/v3\/orders"}],"customer":[{"href":"https:\/\/goldfollower.com\/wp-json\/wc\/v3\/customers\/1"}]}}
+[04-Apr-2023 21:04:36 UTC] Decoded API response:
 stdClass Object
 (
-    [id] => 177354
+    [id] => 177357
     [parent_id] => 0
     [status] => processing
     [currency] => IRT
     [version] => 7.3.0
     [prices_include_tax] => 
-    [date_created] => 2023-04-05T00:26:24
-    [date_modified] => 2023-04-05T00:26:25
+    [date_created] => 2023-04-05T00:34:27
+    [date_modified] => 2023-04-05T00:34:28
     [discount_total] => 0
     [discount_tax] => 0
     [shipping_total] => 0
@@ -33,7 +21,7 @@ stdClass Object
     [total] => 32000
     [total_tax] => 0
     [customer_id] => 1
-    [order_key] => wc_order_X8rCxsUAoc63x
+    [order_key] => wc_order_K01bgeHv4jYO3
     [billing] => stdClass Object
         (
             [first_name] => thenewsnexus
@@ -65,41 +53,41 @@ stdClass Object
 
     [payment_method] => wallet
     [payment_method_title] => کیف پول
-    [transaction_id] => 2147
+    [transaction_id] => 2148
     [customer_ip_address] => 206.217.143.136
     [customer_user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
     [created_via] => checkout
     [customer_note] => 
     [date_completed] => 
-    [date_paid] => 2023-04-05T00:26:25
-    [cart_hash] => a683442934644073572dcba6dd55bd76
-    [number] => 177354
+    [date_paid] => 2023-04-05T00:34:28
+    [cart_hash] => 02bd58ea30b2c7cf35ece4715b33c6be
+    [number] => 177357
     [meta_data] => Array
         (
             [0] => stdClass Object
                 (
-                    [id] => 21208067
+                    [id] => 21208209
                     [key] => is_vat_exempt
                     [value] => no
                 )
 
             [1] => stdClass Object
                 (
-                    [id] => 21208068
+                    [id] => 21208210
                     [key] => billing_first_name
                     [value] => thenewsnexus
                 )
 
             [2] => stdClass Object
                 (
-                    [id] => 21208069
+                    [id] => 21208211
                     [key] => billing_phone
                     [value] => 0912
                 )
 
             [3] => stdClass Object
                 (
-                    [id] => 21208070
+                    [id] => 21208212
                     [key] => yith_wcpmr_order_cart
                     [value] => stdClass Object
                         (
@@ -116,10 +104,10 @@ stdClass Object
                                                         (
                                                             [mode] => builder
                                                             [cssclass] => 
-                                                            [hidelabelincart] => 
-                                                            [hidevalueincart] => 
-                                                            [hidelabelinorder] => 
-                                                            [hidevalueinorder] => 
+                                                            [hidelabelincart] => hidden
+                                                            [hidevalueincart] => price
+                                                            [hidelabelinorder] => hidden
+                                                            [hidevalueinorder] => price
                                                             [element] => stdClass Object
                                                                 (
                                                                     [type] => range
@@ -148,11 +136,11 @@ stdClass Object
 
                                                                 )
 
-                                                            [name] => تعداد
+                                                            [name] => _min_quantity
                                                             [value] => 200
                                                             [price] => 6400
                                                             [section] => 642ab204524449.12927591
-                                                            [section_label] => تعداد
+                                                            [section_label] => _min_quantity
                                                             [currencies] => Array
                                                                 (
                                                                 )
@@ -173,10 +161,10 @@ stdClass Object
                                                         (
                                                             [mode] => builder
                                                             [cssclass] => 
-                                                            [hidelabelincart] => 
-                                                            [hidevalueincart] => 
-                                                            [hidelabelinorder] => 
-                                                            [hidevalueinorder] => 
+                                                            [hidelabelincart] => hidden
+                                                            [hidevalueincart] => price
+                                                            [hidelabelinorder] => hidden
+                                                            [hidevalueinorder] => price
                                                             [element] => stdClass Object
                                                                 (
                                                                     [type] => range
@@ -205,11 +193,11 @@ stdClass Object
 
                                                                 )
 
-                                                            [name] => پست بعدی
+                                                            [name] => _next_posts
                                                             [value] => 5
                                                             [price] => 25600
                                                             [section] => 642ab204524450.02843967
-                                                            [section_label] => پست بعدی
+                                                            [section_label] => _next_posts
                                                             [currencies] => Array
                                                                 (
                                                                 )
@@ -335,14 +323,14 @@ stdClass Object
 
             [4] => stdClass Object
                 (
-                    [id] => 21208116
+                    [id] => 21208258
                     [key] => data_sku
                     [value] => ,1
                 )
 
             [5] => stdClass Object
                 (
-                    [id] => 21208119
+                    [id] => 21208261
                     [key] => is_paid
                     [value] => 1
                 )
@@ -353,7 +341,7 @@ stdClass Object
         (
             [0] => stdClass Object
                 (
-                    [id] => 164960
+                    [id] => 164963
                     [name] => لایک اتوماتیک اینستاگرام - سرویس جدید - یک ماه
                     [product_id] => 177235
                     [variation_id] => 177236
@@ -371,7 +359,7 @@ stdClass Object
                         (
                             [0] => stdClass Object
                                 (
-                                    [id] => 1604898
+                                    [id] => 1604940
                                     [key] => مدت-اشتراک
                                     [value] => یک ماه
                                     [display_key] => مدت اشتراک
@@ -380,7 +368,7 @@ stdClass Object
 
                             [1] => stdClass Object
                                 (
-                                    [id] => 1604899
+                                    [id] => 1604941
                                     [key] => _tmcartepo_data
                                     [value] => Array
                                         (
@@ -388,10 +376,10 @@ stdClass Object
                                                 (
                                                     [mode] => builder
                                                     [cssclass] => 
-                                                    [hidelabelincart] => 
-                                                    [hidevalueincart] => 
-                                                    [hidelabelinorder] => 
-                                                    [hidevalueinorder] => 
+                                                    [hidelabelincart] => hidden
+                                                    [hidevalueincart] => price
+                                                    [hidelabelinorder] => hidden
+                                                    [hidevalueinorder] => price
                                                     [element] => stdClass Object
                                                         (
                                                             [type] => range
@@ -420,11 +408,11 @@ stdClass Object
 
                                                         )
 
-                                                    [name] => تعداد
+                                                    [name] => _min_quantity
                                                     [value] => 200
                                                     [price] => 6400
                                                     [section] => 642ab204524449.12927591
-                                                    [section_label] => تعداد
+                                                    [section_label] => _min_quantity
                                                     [currencies] => Array
                                                         (
                                                         )
@@ -445,10 +433,10 @@ stdClass Object
                                                 (
                                                     [mode] => builder
                                                     [cssclass] => 
-                                                    [hidelabelincart] => 
-                                                    [hidevalueincart] => 
-                                                    [hidelabelinorder] => 
-                                                    [hidevalueinorder] => 
+                                                    [hidelabelincart] => hidden
+                                                    [hidevalueincart] => price
+                                                    [hidelabelinorder] => hidden
+                                                    [hidevalueinorder] => price
                                                     [element] => stdClass Object
                                                         (
                                                             [type] => range
@@ -477,11 +465,11 @@ stdClass Object
 
                                                         )
 
-                                                    [name] => پست بعدی
+                                                    [name] => _next_posts
                                                     [value] => 5
                                                     [price] => 25600
                                                     [section] => 642ab204524450.02843967
-                                                    [section_label] => پست بعدی
+                                                    [section_label] => _next_posts
                                                     [currencies] => Array
                                                         (
                                                         )
@@ -507,10 +495,10 @@ stdClass Object
                                                 (
                                                     [mode] => builder
                                                     [cssclass] => 
-                                                    [hidelabelincart] => 
-                                                    [hidevalueincart] => 
-                                                    [hidelabelinorder] => 
-                                                    [hidevalueinorder] => 
+                                                    [hidelabelincart] => hidden
+                                                    [hidevalueincart] => price
+                                                    [hidelabelinorder] => hidden
+                                                    [hidevalueinorder] => price
                                                     [element] => stdClass Object
                                                         (
                                                             [type] => range
@@ -539,11 +527,11 @@ stdClass Object
 
                                                         )
 
-                                                    [name] => تعداد
+                                                    [name] => _min_quantity
                                                     [value] => 200
                                                     [price] => 6400
                                                     [section] => 642ab204524449.12927591
-                                                    [section_label] => تعداد
+                                                    [section_label] => _min_quantity
                                                     [currencies] => Array
                                                         (
                                                         )
@@ -564,10 +552,10 @@ stdClass Object
                                                 (
                                                     [mode] => builder
                                                     [cssclass] => 
-                                                    [hidelabelincart] => 
-                                                    [hidevalueincart] => 
-                                                    [hidelabelinorder] => 
-                                                    [hidevalueinorder] => 
+                                                    [hidelabelincart] => hidden
+                                                    [hidevalueincart] => price
+                                                    [hidelabelinorder] => hidden
+                                                    [hidevalueinorder] => price
                                                     [element] => stdClass Object
                                                         (
                                                             [type] => range
@@ -596,11 +584,11 @@ stdClass Object
 
                                                         )
 
-                                                    [name] => پست بعدی
+                                                    [name] => _next_posts
                                                     [value] => 5
                                                     [price] => 25600
                                                     [section] => 642ab204524450.02843967
-                                                    [section_label] => پست بعدی
+                                                    [section_label] => _next_posts
                                                     [currencies] => Array
                                                         (
                                                         )
@@ -623,7 +611,7 @@ stdClass Object
 
                             [2] => stdClass Object
                                 (
-                                    [id] => 1604900
+                                    [id] => 1604942
                                     [key] => _tm_epo_product_original_price
                                     [value] => Array
                                         (
@@ -640,7 +628,7 @@ stdClass Object
 
                             [3] => stdClass Object
                                 (
-                                    [id] => 1604901
+                                    [id] => 1604943
                                     [key] => _tm_epo_options_prices
                                     [value] => Array
                                         (
@@ -657,7 +645,7 @@ stdClass Object
 
                             [4] => stdClass Object
                                 (
-                                    [id] => 1604902
+                                    [id] => 1604944
                                     [key] => _tm_epo
                                     [value] => Array
                                         (
@@ -674,7 +662,7 @@ stdClass Object
 
                             [5] => stdClass Object
                                 (
-                                    [id] => 1604903
+                                    [id] => 1604945
                                     [key] => _tmdata
                                     [value] => Array
                                         (
@@ -755,7 +743,7 @@ stdClass Object
 
                             [6] => stdClass Object
                                 (
-                                    [id] => 1604904
+                                    [id] => 1604946
                                     [key] => _tmpost_data
                                     [value] => Array
                                         (
@@ -796,453 +784,6 @@ stdClass Object
 
                                         )
 
-                                )
-
-                            [7] => stdClass Object
-                                (
-                                    [id] => 1604898
-                                    [key] => مدت-اشتراک
-                                    [value] => یک ماه
-                                    [display_key] => مدت اشتراک
-                                    [display_value] => یک ماه
-                                )
-
-                            [8] => stdClass Object
-                                (
-                                    [id] => 1604899
-                                    [key] => _tmcartepo_data
-                                    [value] => Array
-                                        (
-                                            [0] => stdClass Object
-                                                (
-                                                    [mode] => builder
-                                                    [cssclass] => 
-                                                    [hidelabelincart] => 
-                                                    [hidevalueincart] => 
-                                                    [hidelabelinorder] => 
-                                                    [hidevalueinorder] => 
-                                                    [element] => stdClass Object
-                                                        (
-                                                            [type] => range
-                                                            [rules] => Array
-                                                                (
-                                                                    [0] => Array
-                                                                        (
-                                                                            [0] => {this.value}*32
-                                                                        )
-
-                                                                )
-
-                                                            [rules_type] => Array
-                                                                (
-                                                                    [0] => Array
-                                                                        (
-                                                                            [0] => math
-                                                                        )
-
-                                                                )
-
-                                                            [_] => stdClass Object
-                                                                (
-                                                                    [price_type] => 
-                                                                )
-
-                                                        )
-
-                                                    [name] => تعداد
-                                                    [value] => 200
-                                                    [price] => 6400
-                                                    [section] => 642ab204524449.12927591
-                                                    [section_label] => تعداد
-                                                    [currencies] => Array
-                                                        (
-                                                        )
-
-                                                    [price_per_currency] => stdClass Object
-                                                        (
-                                                            [IRT] => 6400
-                                                        )
-
-                                                    [percentcurrenttotal] => 0
-                                                    [fixedcurrenttotal] => 0
-                                                    [quantity] => 1
-                                                    [key_id] => 0
-                                                    [keyvalue_id] => 0
-                                                )
-
-                                            [1] => stdClass Object
-                                                (
-                                                    [mode] => builder
-                                                    [cssclass] => 
-                                                    [hidelabelincart] => 
-                                                    [hidevalueincart] => 
-                                                    [hidelabelinorder] => 
-                                                    [hidevalueinorder] => 
-                                                    [element] => stdClass Object
-                                                        (
-                                                            [type] => range
-                                                            [rules] => Array
-                                                                (
-                                                                    [0] => Array
-                                                                        (
-                                                                            [0] => {field.642ab204524449.12927591.price}*{this.value}-{field.642ab204524449.12927591.price}
-                                                                        )
-
-                                                                )
-
-                                                            [rules_type] => Array
-                                                                (
-                                                                    [0] => Array
-                                                                        (
-                                                                            [0] => math
-                                                                        )
-
-                                                                )
-
-                                                            [_] => stdClass Object
-                                                                (
-                                                                    [price_type] => 
-                                                                )
-
-                                                        )
-
-                                                    [name] => پست بعدی
-                                                    [value] => 5
-                                                    [price] => 25600
-                                                    [section] => 642ab204524450.02843967
-                                                    [section_label] => پست بعدی
-                                                    [currencies] => Array
-                                                        (
-                                                        )
-
-                                                    [price_per_currency] => stdClass Object
-                                                        (
-                                                            [IRT] => 25600
-                                                        )
-
-                                                    [percentcurrenttotal] => 0
-                                                    [fixedcurrenttotal] => 0
-                                                    [quantity] => 1
-                                                    [key_id] => 0
-                                                    [keyvalue_id] => 0
-                                                )
-
-                                        )
-
-                                    [display_key] => _tmcartepo_data
-                                    [display_value] => Array
-                                        (
-                                            [0] => stdClass Object
-                                                (
-                                                    [mode] => builder
-                                                    [cssclass] => 
-                                                    [hidelabelincart] => 
-                                                    [hidevalueincart] => 
-                                                    [hidelabelinorder] => 
-                                                    [hidevalueinorder] => 
-                                                    [element] => stdClass Object
-                                                        (
-                                                            [type] => range
-                                                            [rules] => Array
-                                                                (
-                                                                    [0] => Array
-                                                                        (
-                                                                            [0] => {this.value}*32
-                                                                        )
-
-                                                                )
-
-                                                            [rules_type] => Array
-                                                                (
-                                                                    [0] => Array
-                                                                        (
-                                                                            [0] => math
-                                                                        )
-
-                                                                )
-
-                                                            [_] => stdClass Object
-                                                                (
-                                                                    [price_type] => 
-                                                                )
-
-                                                        )
-
-                                                    [name] => تعداد
-                                                    [value] => 200
-                                                    [price] => 6400
-                                                    [section] => 642ab204524449.12927591
-                                                    [section_label] => تعداد
-                                                    [currencies] => Array
-                                                        (
-                                                        )
-
-                                                    [price_per_currency] => stdClass Object
-                                                        (
-                                                            [IRT] => 6400
-                                                        )
-
-                                                    [percentcurrenttotal] => 0
-                                                    [fixedcurrenttotal] => 0
-                                                    [quantity] => 1
-                                                    [key_id] => 0
-                                                    [keyvalue_id] => 0
-                                                )
-
-                                            [1] => stdClass Object
-                                                (
-                                                    [mode] => builder
-                                                    [cssclass] => 
-                                                    [hidelabelincart] => 
-                                                    [hidevalueincart] => 
-                                                    [hidelabelinorder] => 
-                                                    [hidevalueinorder] => 
-                                                    [element] => stdClass Object
-                                                        (
-                                                            [type] => range
-                                                            [rules] => Array
-                                                                (
-                                                                    [0] => Array
-                                                                        (
-                                                                            [0] => {field.642ab204524449.12927591.price}*{this.value}-{field.642ab204524449.12927591.price}
-                                                                        )
-
-                                                                )
-
-                                                            [rules_type] => Array
-                                                                (
-                                                                    [0] => Array
-                                                                        (
-                                                                            [0] => math
-                                                                        )
-
-                                                                )
-
-                                                            [_] => stdClass Object
-                                                                (
-                                                                    [price_type] => 
-                                                                )
-
-                                                        )
-
-                                                    [name] => پست بعدی
-                                                    [value] => 5
-                                                    [price] => 25600
-                                                    [section] => 642ab204524450.02843967
-                                                    [section_label] => پست بعدی
-                                                    [currencies] => Array
-                                                        (
-                                                        )
-
-                                                    [price_per_currency] => stdClass Object
-                                                        (
-                                                            [IRT] => 25600
-                                                        )
-
-                                                    [percentcurrenttotal] => 0
-                                                    [fixedcurrenttotal] => 0
-                                                    [quantity] => 1
-                                                    [key_id] => 0
-                                                    [keyvalue_id] => 0
-                                                )
-
-                                        )
-
-                                )
-
-                            [9] => stdClass Object
-                                (
-                                    [id] => 1604900
-                                    [key] => _tm_epo_product_original_price
-                                    [value] => Array
-                                        (
-                                            [0] => 0
-                                        )
-
-                                    [display_key] => _tm_epo_product_original_price
-                                    [display_value] => Array
-                                        (
-                                            [0] => 0
-                                        )
-
-                                )
-
-                            [10] => stdClass Object
-                                (
-                                    [id] => 1604901
-                                    [key] => _tm_epo_options_prices
-                                    [value] => Array
-                                        (
-                                            [0] => 32000
-                                        )
-
-                                    [display_key] => _tm_epo_options_prices
-                                    [display_value] => Array
-                                        (
-                                            [0] => 32000
-                                        )
-
-                                )
-
-                            [11] => stdClass Object
-                                (
-                                    [id] => 1604902
-                                    [key] => _tm_epo
-                                    [value] => Array
-                                        (
-                                            [0] => 1
-                                        )
-
-                                    [display_key] => _tm_epo
-                                    [display_value] => Array
-                                        (
-                                            [0] => 1
-                                        )
-
-                                )
-
-                            [12] => stdClass Object
-                                (
-                                    [id] => 1604903
-                                    [key] => _tmdata
-                                    [value] => Array
-                                        (
-                                            [0] => stdClass Object
-                                                (
-                                                    [tmcp_post_fields] => stdClass Object
-                                                        (
-                                                            [tmcp_range_0] => 200
-                                                            [tmcp_range_1] => 5
-                                                        )
-
-                                                    [product_id] => 177235
-                                                    [per_product_pricing] => 1
-                                                    [cpf_product_price] => 0
-                                                    [variation_id] => 177236
-                                                    [form_prefix] => 
-                                                    [tc_added_in_currency] => IRT
-                                                    [tc_default_currency] => IRT
-                                                    [tmcartepo_data] => Array
-                                                        (
-                                                            [0] => stdClass Object
-                                                                (
-                                                                    [key] => 200
-                                                                    [attribute] => tmcp_range_0
-                                                                )
-
-                                                            [1] => stdClass Object
-                                                                (
-                                                                    [key] => 5
-                                                                    [attribute] => tmcp_range_1
-                                                                )
-
-                                                        )
-
-                                                )
-
-                                        )
-
-                                    [display_key] => _tmdata
-                                    [display_value] => Array
-                                        (
-                                            [0] => stdClass Object
-                                                (
-                                                    [tmcp_post_fields] => stdClass Object
-                                                        (
-                                                            [tmcp_range_0] => 200
-                                                            [tmcp_range_1] => 5
-                                                        )
-
-                                                    [product_id] => 177235
-                                                    [per_product_pricing] => 1
-                                                    [cpf_product_price] => 0
-                                                    [variation_id] => 177236
-                                                    [form_prefix] => 
-                                                    [tc_added_in_currency] => IRT
-                                                    [tc_default_currency] => IRT
-                                                    [tmcartepo_data] => Array
-                                                        (
-                                                            [0] => stdClass Object
-                                                                (
-                                                                    [key] => 200
-                                                                    [attribute] => tmcp_range_0
-                                                                )
-
-                                                            [1] => stdClass Object
-                                                                (
-                                                                    [key] => 5
-                                                                    [attribute] => tmcp_range_1
-                                                                )
-
-                                                        )
-
-                                                )
-
-                                        )
-
-                                )
-
-                            [13] => stdClass Object
-                                (
-                                    [id] => 1604904
-                                    [key] => _tmpost_data
-                                    [value] => Array
-                                        (
-                                            [0] => stdClass Object
-                                                (
-                                                    [attribute_%d9%85%d8%af%d8%aa-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9] => یک ماه
-                                                    [tm-epo-counter] => 1
-                                                    [tcaddtocart] => 177235
-                                                    [tmcp_range_0] => 200
-                                                    [tmcp_range_1] => 5
-                                                    [cpf_product_price] => 0
-                                                    [tc_form_prefix] => 
-                                                    [quantity] => 1
-                                                    [add-to-cart] => 177235
-                                                    [product_id] => 177235
-                                                    [variation_id] => 177236
-                                                )
-
-                                        )
-
-                                    [display_key] => _tmpost_data
-                                    [display_value] => Array
-                                        (
-                                            [0] => stdClass Object
-                                                (
-                                                    [attribute_%d9%85%d8%af%d8%aa-%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9] => یک ماه
-                                                    [tm-epo-counter] => 1
-                                                    [tcaddtocart] => 177235
-                                                    [tmcp_range_0] => 200
-                                                    [tmcp_range_1] => 5
-                                                    [cpf_product_price] => 0
-                                                    [tc_form_prefix] => 
-                                                    [quantity] => 1
-                                                    [add-to-cart] => 177235
-                                                    [product_id] => 177235
-                                                    [variation_id] => 177236
-                                                )
-
-                                        )
-
-                                )
-
-                            [14] => stdClass Object
-                                (
-                                    [id] => 100000
-                                    [key] => تعداد
-                                    [value] => 200 <small> <span class="woocommerce-Price-amount amount"><bdi>6,400 <span class="woocommerce-Price-currencySymbol">تومان</span></bdi></span></small>
-                                    [display_key] => تعداد
-                                    [display_value] => 200 6,400 تومان
-                                )
-
-                            [15] => stdClass Object
-                                (
-                                    [id] => 100001
-                                    [key] => پست بعدی
-                                    [value] => 5 <small> <span class="woocommerce-Price-amount amount"><bdi>25,600 <span class="woocommerce-Price-currencySymbol">تومان</span></bdi></span></small>
-                                    [display_key] => پست بعدی
-                                    [display_value] => 5 25,600 تومان
                                 )
 
                         )
@@ -1280,14 +821,14 @@ stdClass Object
         (
         )
 
-    [payment_url] => https://goldfollower.com/checkout/order-pay/177354/?pay_for_order=true&key=wc_order_X8rCxsUAoc63x
+    [payment_url] => https://goldfollower.com/checkout/order-pay/177357/?pay_for_order=true&key=wc_order_K01bgeHv4jYO3
     [is_editable] => 
     [needs_payment] => 
     [needs_processing] => 1
-    [date_created_gmt] => 2023-04-04T20:56:24
-    [date_modified_gmt] => 2023-04-04T20:56:25
+    [date_created_gmt] => 2023-04-04T21:04:27
+    [date_modified_gmt] => 2023-04-04T21:04:28
     [date_completed_gmt] => 
-    [date_paid_gmt] => 2023-04-04T20:56:25
+    [date_paid_gmt] => 2023-04-04T21:04:28
     [currency_symbol] => تومان
     [_links] => stdClass Object
         (
@@ -1295,7 +836,7 @@ stdClass Object
                 (
                     [0] => stdClass Object
                         (
-                            [href] => https://goldfollower.com/wp-json/wc/v3/orders/177354
+                            [href] => https://goldfollower.com/wp-json/wc/v3/orders/177357
                         )
 
                 )
