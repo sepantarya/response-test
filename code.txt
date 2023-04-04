@@ -62,6 +62,7 @@ error_log("Finished extracting metadata");
 		'old_posts' => $old_posts,
 		'posts' => $posts,
 		'expiry' => $expiry
+		
 	];
 
     $log_message = "Log Data:\n" . print_r($log_data, true);
@@ -77,7 +78,9 @@ error_log("Finished extracting metadata");
     // Prepare data for the HTTP request
     $min = (int)$quantity;
     $max = $min + 5;
-
+	error_log("Min value: " . $min);
+error_log("Max value: " . $max);
+	
     $post_data = [
         'key' => 'b2cb63fd9b839879f9aa2820a4e49632',
         'action' => 'add',
