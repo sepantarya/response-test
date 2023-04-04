@@ -37,21 +37,23 @@ $old_posts = 0;
 $posts = 0;
 
 foreach ($meta_data as $meta) {
+    error_log('Meta Key: ' . $meta['key'] . ', Meta Value: ' . $meta['value']);
     switch ($meta['key']) {
         case 'مدت اشتراک':
             $subscription_duration = $meta['value'];
             break;
-        case 'تعداد':
+        case '_min_quantity':
             $quantity = $meta['value'];
             break;
-        case 'پست‌های قبلی':
+        case '_old_posts':
             $old_posts = (int)filter_var($meta['value'], FILTER_SANITIZE_NUMBER_INT);
             break;
-        case 'پست‌های بعدی':
+        case '_next_posts':
             $posts = (int)filter_var($meta['value'], FILTER_SANITIZE_NUMBER_INT);
             break;
     }
 }
+
 error_log("Finished extracting metadata");
 
 // After extracting the values from the metadata, add this code:
