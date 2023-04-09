@@ -1,0 +1,191 @@
+function send_http_request_on_product_purchase($order_id) {
+	error_log('Function send_http_request_on_product_purchase executed');
+    $url = 'https://goldfollower.com/staging/wp-json/wc/v3/orders/' . $order_id;
+
+    // Prepare authentication headers
+    $headers = [
+        'Authorization' => 'Basic ' . base64_encode('ck_84be584aaccd8313f3920c4a0fa1be59cb328c40:cs_858ba42c13d9f86a54c6644c454fe0cc27ed936b')
+    ];
+
+    // Send the request
+$response = wp_remote_get($url, ['headers' => $headers, 'timeout' => 15]);
+
+
+    // Check for errors and decode the response
+    if (is_wp_error($response)) {
+        error_log('Error fetching order data: ' . $response->get_error_message());
+        return;
+    }
+
+   $order = json_decode(wp_remote_retrieve_body($response));
+
+	
+	$raw_api_response = wp_remote_retrieve_body($response);
+	//error_log("Raw API response:\n" . $raw_api_response);
+	error_log("Decoded API response:\n" . print_r($order, true));
+
+    // Rest of the code
+	$line_items = $order->line_items;
+	$meta_data = $order->meta_data;
+	error_log('Metadata: ' . print_r($meta_data, true));
+	$billing_first_name = $order->billing->first_name;
+	error_log('billing_first_name: ' . print_r($billing_first_name, true));
+// Extract the necessary information from the metadata
+$subscription_duration = '';
+$quantity = '';
+$old_posts = 0;
+$posts = 0;
+/*
+foreach ($meta_data as $meta) {
+    if (isset($meta->key) && $meta->key === 'yith_wcpmr_order_cart') {
+        $items = $meta->value->items;
+        foreach ($items as $item) {
+            if (isset($item->tmcartepo)) {
+                foreach ($item->tmcartepo as $tmcartepo) {
+                    error_log('Meta Name: ' . $tmcartepo->name . ', Meta Value: ' . $tmcartepo->value);
+                    switch ($tmcartepo->name) {
+                        case 'مدت اشتراک':
+                            $subscription_duration = $tmcartepo->value;
+                            break;
+                        case '_min_quantity':
+                            $quantity = $tmcartepo->value;
+                            break;
+                        case '_old_posts':
+                            $old_posts = (int)filter_var($tmcartepo->value, FILTER_SANITIZE_NUMBER_INT);
+                            break;
+                        case '_next_posts':
+                            $posts = (int)filter_var($tmcartepo->value, FILTER_SANITIZE_NUMBER_INT);
+                            break;
+                    }
+                }
+            }
+        }
+    }
+}
+*/
+
+$expiry = new DateTime();
+foreach ($meta_data as $meta) {
+    if (isset($meta->key) && $meta->key === 'yith_wcpmr_order_cart') {
+        $items = $meta->value->items;
+        foreach ($items as $item) {
+            if (isset($item->tmcartepo)) {
+                foreach ($item->tmcartepo as $tmcartepo) {
+                    error_log('Meta Name: ' . $tmcartepo->name . ', Meta Value: ' . $tmcartepo->value);
+                    switch ($tmcartepo->name) {
+                        case 'مدت اشتراک':
+                            $subscription_duration = $tmcartepo->value;
+                            break;
+                        case '_min_quantity':
+                            $quantity = $tmcartepo->value;
+                            break;
+                        case '_old_posts':
+                            $old_posts = (int)filter_var($tmcartepo->value, FILTER_SANITIZE_NUMBER_INT);
+                            break;
+                        case '_next_posts':
+                            $posts = (int)filter_var($tmcartepo->value, FILTER_SANITIZE_NUMBER_INT);
+                            break;
+                        case 'OneMonth':
+                            if ($tmcartepo->value === 'true') {
+                                $expiry->modify("+1 month");
+                            }
+                            break;
+                        case 'TwoMonth':
+                            if ($tmcartepo->value === 'true') {
+                                $expiry->modify("+2 months");
+                            }
+                            break;
+                        case 'ThreeMonth':
+                            if ($tmcartepo->value === 'true') {
+                                $expiry->modify("+3 months");
+                            }
+                            break;
+                    }
+                }
+            }
+        }
+    }
+}
+
+$expiry = $expiry->format('d/m/Y');
+
+
+error_log("Finished extracting metadata");
+
+// After extracting the values from the metadata, add this code:
+	$log_data = [
+		'date' => date('Y-m-d H:i:s'),
+		'order_id' => $order_id,
+		'subscription_duration' => $subscription_duration,
+		'quantity' => $quantity,
+		'old_posts' => $old_posts,
+		'posts' => $posts,
+		'expiry' => $expiry
+		
+	];
+
+    $log_message = "Log Data:\n" . print_r($log_data, true);
+    error_log($log_message);
+	
+    // Prepare data for the HTTP request
+    $min = (int)$quantity;
+    $max = $min + 5;
+	error_log("Min value: " . $min);
+error_log("Max value: " . $max);
+	
+    $post_data = [
+        'key' => 'b2cb63fd9b839879f9aa2820a4e49632',
+        'action' => 'add',
+        'service' => '895',
+        'username' => $billing_first_name,
+        'min' => $min,
+        'max' => $max,
+        'posts' => $posts,
+        'old_posts' => $old_posts,
+        'delay' => 0,
+        'expiry' => $expiry
+    ];
+
+    // Send the HTTP request
+    $url = 'https://perfectsmm.com/api/v2';
+    $ch = curl_init($url);
+
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post_data));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	
+	error_log("Preparing to send cURL request");
+	
+    $response = curl_exec($ch);
+	error_log("cURL response: " . $response);
+    curl_close($ch);
+
+    // Decode the response
+    $response_data = json_decode($response, true);
+	error_log("Response data decoded: " . print_r($response_data, true));
+
+    // Check if order was created successfully
+    if (isset($response_data['order'])) {
+        $order_number = $response_data['order'];
+        // Save the order number privately in the order database
+        // You can use an existing order meta key or create a new one
+        update_post_meta($order_id, '_external_order_number', $order_number);
+    } else {
+        // Handle errors
+        error_log('Error creating order at PerfectSMM: ' . print_r($response_data, true));
+    }
+
+    // Log the extracted data and the response of the requests
+    $log_data = [
+        'date' => date('Y-m-d H:i:s'),
+        'order_id' => $order_id,
+        'post_data' => $post_data,
+        'response_data' => $response_data
+    ];
+    
+    $log_message = "Log Data:\n" . print_r($log_data, true);
+    error_log($log_message);
+
+}
+
+
